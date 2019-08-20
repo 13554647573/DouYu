@@ -8,17 +8,25 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor.white
-        
-//        addChild(HomeViewController())
-//        addChild(LiveViewController())
-//        addChild(FollowViewController())
-//        addChild(ProfileViewController())
+        addChildVC("Home")
+        addChildVC("Live")
+        addChildVC("Follow")
+        addChildVC("Profile")
     }
 
+    
+    private func addChildVC (_ name : String) {
+        
+        // 通过 storyboard 来获取控制器
+        // 因为是可选性，所以需要加！
+        let childVC = UIStoryboard(name: name, bundle: nil).instantiateInitialViewController()!
+        
+        // 将自控制器添加
+        addChild(childVC)
+    }
 }

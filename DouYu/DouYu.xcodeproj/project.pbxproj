@@ -107,7 +107,9 @@
 		491B7691230BC7C400225B73 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				491B76A2230BD69000225B73 /* HomeViewController.swift */,
+				491B76BA230BE64900225B73 /* Model */,
+				491B76B7230BE62200225B73 /* View */,
+				491B76B5230BE60300225B73 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -122,7 +124,9 @@
 		491B7693230BC7C400225B73 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
-				491B76A6230BD6A600225B73 /* FollowViewController.swift */,
+				491B76C9230BE72A00225B73 /* Model */,
+				491B76C7230BE72400225B73 /* View */,
+				491B76C5230BE71D00225B73 /* Controller */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -130,7 +134,9 @@
 		491B7694230BC7C400225B73 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				491B76A8230BD6B100225B73 /* ProfileViewController.swift */,
+				491B76CE230BE75F00225B73 /* Model */,
+				491B76CD230BE75C00225B73 /* View */,
+				491B76CA230BE74800225B73 /* Controller */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 		491B7695230BC7C400225B73 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				491B76A4230BD69B00225B73 /* LiveViewController.swift */,
+				491B76C4230BE6AE00225B73 /* Model */,
+				491B76C2230BE6A300225B73 /* View */,
+				491B76BD230BE66900225B73 /* Controller */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -148,12 +156,100 @@
 			children = (
 				491B76A0230BD51500225B73 /* MainViewController.swift */,
 				491B76AA230BDC1B00225B73 /* Main.storyboard */,
-				491B76B2230BDE3900225B73 /* Profile.storyboard */,
-				491B76B0230BDE2200225B73 /* Follow.storyboard */,
-				491B76AE230BDE1000225B73 /* Live.storyboard */,
-				491B76AC230BDDF400225B73 /* Home.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		491B76B5230BE60300225B73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				491B76A2230BD69000225B73 /* HomeViewController.swift */,
+				491B76AC230BDDF400225B73 /* Home.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		491B76B7230BE62200225B73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		491B76BA230BE64900225B73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		491B76BD230BE66900225B73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				491B76A4230BD69B00225B73 /* LiveViewController.swift */,
+				491B76AE230BDE1000225B73 /* Live.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		491B76C2230BE6A300225B73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		491B76C4230BE6AE00225B73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		491B76C5230BE71D00225B73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				491B76A6230BD6A600225B73 /* FollowViewController.swift */,
+				491B76B0230BDE2200225B73 /* Follow.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		491B76C7230BE72400225B73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		491B76C9230BE72A00225B73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		491B76CA230BE74800225B73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				491B76A8230BD6B100225B73 /* ProfileViewController.swift */,
+				491B76B2230BDE3900225B73 /* Profile.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		491B76CD230BE75C00225B73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		491B76CE230BE75F00225B73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		A9C568333D592F0EAC139007 /* Pods */ = {
@@ -324,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -379,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -399,7 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DouYu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,7 +518,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DouYu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
