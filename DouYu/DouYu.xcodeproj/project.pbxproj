@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00E952C3FAA40EFA530AC212 /* libPods-DouYu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6A691C68A5BC5966AFB6A5 /* libPods-DouYu.a */; };
 		491B767F230B9F6100225B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B767E230B9F6100225B73 /* AppDelegate.swift */; };
 		491B7681230B9F6100225B73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B7680230B9F6100225B73 /* ViewController.swift */; };
 		491B7684230B9F6100225B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B7682230B9F6100225B73 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		109E054D5F04188B64E7CA2D /* Pods-DouYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYu/Pods-DouYu.debug.xcconfig"; sourceTree = "<group>"; };
 		491B767B230B9F6100225B73 /* DouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491B767E230B9F6100225B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		491B7680230B9F6100225B73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		491B7685230B9F6200225B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		491B7688230B9F6200225B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		491B768A230B9F6200225B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CAC06143C228BAD2F090CB /* Pods-DouYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYu.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYu/Pods-DouYu.release.xcconfig"; sourceTree = "<group>"; };
+		EE6A691C68A5BC5966AFB6A5 /* libPods-DouYu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouYu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E952C3FAA40EFA530AC212 /* libPods-DouYu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B33C128348C49F54D5DE565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE6A691C68A5BC5966AFB6A5 /* libPods-DouYu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		491B7672230B9F6100225B73 = {
 			isa = PBXGroup;
 			children = (
 				491B767D230B9F6100225B73 /* DouYu */,
 				491B767C230B9F6100225B73 /* Products */,
+				A9C568333D592F0EAC139007 /* Pods */,
+				0B33C128348C49F54D5DE565 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +69,7 @@
 		491B767D230B9F6100225B73 /* DouYu */ = {
 			isa = PBXGroup;
 			children = (
+				491B7690230BC7C400225B73 /* Classes */,
 				491B767E230B9F6100225B73 /* AppDelegate.swift */,
 				491B7680230B9F6100225B73 /* ViewController.swift */,
 				491B7682230B9F6100225B73 /* Main.storyboard */,
@@ -64,6 +80,70 @@
 			path = DouYu;
 			sourceTree = "<group>";
 		};
+		491B7690230BC7C400225B73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				491B7691230BC7C400225B73 /* Home */,
+				491B7692230BC7C400225B73 /* Tools */,
+				491B7693230BC7C400225B73 /* Follow */,
+				491B7694230BC7C400225B73 /* Profile */,
+				491B7695230BC7C400225B73 /* Live */,
+				491B7696230BC7C400225B73 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		491B7691230BC7C400225B73 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		491B7692230BC7C400225B73 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		491B7693230BC7C400225B73 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		491B7694230BC7C400225B73 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		491B7695230BC7C400225B73 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		491B7696230BC7C400225B73 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A9C568333D592F0EAC139007 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				109E054D5F04188B64E7CA2D /* Pods-DouYu.debug.xcconfig */,
+				57CAC06143C228BAD2F090CB /* Pods-DouYu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 491B768D230B9F6200225B73 /* Build configuration list for PBXNativeTarget "DouYu" */;
 			buildPhases = (
+				0CA46DEA02951E6D5F08F9F8 /* [CP] Check Pods Manifest.lock */,
 				491B7677230B9F6100225B73 /* Sources */,
 				491B7678230B9F6100225B73 /* Frameworks */,
 				491B7679230B9F6100225B73 /* Resources */,
@@ -129,6 +210,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CA46DEA02951E6D5F08F9F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DouYu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		491B7677230B9F6100225B73 /* Sources */ = {
@@ -213,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,17 +382,22 @@
 		};
 		491B768E230B9F6200225B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109E054D5F04188B64E7CA2D /* Pods-DouYu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xytwh.DouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +405,22 @@
 		};
 		491B768F230B9F6200225B73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CAC06143C228BAD2F090CB /* Pods-DouYu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xytwh.DouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
