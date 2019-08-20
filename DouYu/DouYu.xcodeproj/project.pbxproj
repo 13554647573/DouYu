@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		00E952C3FAA40EFA530AC212 /* libPods-DouYu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6A691C68A5BC5966AFB6A5 /* libPods-DouYu.a */; };
 		491B767F230B9F6100225B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B767E230B9F6100225B73 /* AppDelegate.swift */; };
-		491B7681230B9F6100225B73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B7680230B9F6100225B73 /* ViewController.swift */; };
-		491B7684230B9F6100225B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B7682230B9F6100225B73 /* Main.storyboard */; };
 		491B7686230B9F6200225B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491B7685230B9F6200225B73 /* Assets.xcassets */; };
-		491B7689230B9F6200225B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B7687230B9F6200225B73 /* LaunchScreen.storyboard */; };
+		491B76A1230BD51500225B73 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B76A0230BD51500225B73 /* MainViewController.swift */; };
+		491B76A3230BD69000225B73 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B76A2230BD69000225B73 /* HomeViewController.swift */; };
+		491B76A5230BD69B00225B73 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B76A4230BD69B00225B73 /* LiveViewController.swift */; };
+		491B76A7230BD6A600225B73 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B76A6230BD6A600225B73 /* FollowViewController.swift */; };
+		491B76A9230BD6B100225B73 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B76A8230BD6B100225B73 /* ProfileViewController.swift */; };
+		491B76AB230BDC1B00225B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B76AA230BDC1B00225B73 /* Main.storyboard */; };
+		491B76AD230BDDF400225B73 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B76AC230BDDF400225B73 /* Home.storyboard */; };
+		491B76AF230BDE1000225B73 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B76AE230BDE1000225B73 /* Live.storyboard */; };
+		491B76B1230BDE2200225B73 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B76B0230BDE2200225B73 /* Follow.storyboard */; };
+		491B76B3230BDE3900225B73 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491B76B2230BDE3900225B73 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		109E054D5F04188B64E7CA2D /* Pods-DouYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYu/Pods-DouYu.debug.xcconfig"; sourceTree = "<group>"; };
 		491B767B230B9F6100225B73 /* DouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491B767E230B9F6100225B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		491B7680230B9F6100225B73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		491B7683230B9F6100225B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		491B7685230B9F6200225B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		491B7688230B9F6200225B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		491B768A230B9F6200225B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491B76A0230BD51500225B73 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		491B76A2230BD69000225B73 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		491B76A4230BD69B00225B73 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		491B76A6230BD6A600225B73 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		491B76A8230BD6B100225B73 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		491B76AA230BDC1B00225B73 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		491B76AC230BDDF400225B73 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		491B76AE230BDE1000225B73 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		491B76B0230BDE2200225B73 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		491B76B2230BDE3900225B73 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		57CAC06143C228BAD2F090CB /* Pods-DouYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYu.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYu/Pods-DouYu.release.xcconfig"; sourceTree = "<group>"; };
 		EE6A691C68A5BC5966AFB6A5 /* libPods-DouYu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouYu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,10 +85,7 @@
 			children = (
 				491B7690230BC7C400225B73 /* Classes */,
 				491B767E230B9F6100225B73 /* AppDelegate.swift */,
-				491B7680230B9F6100225B73 /* ViewController.swift */,
-				491B7682230B9F6100225B73 /* Main.storyboard */,
 				491B7685230B9F6200225B73 /* Assets.xcassets */,
-				491B7687230B9F6200225B73 /* LaunchScreen.storyboard */,
 				491B768A230B9F6200225B73 /* Info.plist */,
 			);
 			path = DouYu;
@@ -83,12 +94,12 @@
 		491B7690230BC7C400225B73 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				491B7696230BC7C400225B73 /* Main */,
 				491B7691230BC7C400225B73 /* Home */,
-				491B7692230BC7C400225B73 /* Tools */,
+				491B7695230BC7C400225B73 /* Live */,
 				491B7693230BC7C400225B73 /* Follow */,
 				491B7694230BC7C400225B73 /* Profile */,
-				491B7695230BC7C400225B73 /* Live */,
-				491B7696230BC7C400225B73 /* Main */,
+				491B7692230BC7C400225B73 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -96,6 +107,7 @@
 		491B7691230BC7C400225B73 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				491B76A2230BD69000225B73 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -110,6 +122,7 @@
 		491B7693230BC7C400225B73 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				491B76A6230BD6A600225B73 /* FollowViewController.swift */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -117,6 +130,7 @@
 		491B7694230BC7C400225B73 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				491B76A8230BD6B100225B73 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -124,6 +138,7 @@
 		491B7695230BC7C400225B73 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				491B76A4230BD69B00225B73 /* LiveViewController.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -131,6 +146,12 @@
 		491B7696230BC7C400225B73 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				491B76A0230BD51500225B73 /* MainViewController.swift */,
+				491B76AA230BDC1B00225B73 /* Main.storyboard */,
+				491B76B2230BDE3900225B73 /* Profile.storyboard */,
+				491B76B0230BDE2200225B73 /* Follow.storyboard */,
+				491B76AE230BDE1000225B73 /* Live.storyboard */,
+				491B76AC230BDDF400225B73 /* Home.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -203,9 +224,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				491B7689230B9F6200225B73 /* LaunchScreen.storyboard in Resources */,
+				491B76B3230BDE3900225B73 /* Profile.storyboard in Resources */,
+				491B76B1230BDE2200225B73 /* Follow.storyboard in Resources */,
+				491B76AD230BDDF400225B73 /* Home.storyboard in Resources */,
 				491B7686230B9F6200225B73 /* Assets.xcassets in Resources */,
-				491B7684230B9F6100225B73 /* Main.storyboard in Resources */,
+				491B76AF230BDE1000225B73 /* Live.storyboard in Resources */,
+				491B76AB230BDC1B00225B73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,31 +261,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				491B7681230B9F6100225B73 /* ViewController.swift in Sources */,
+				491B76A9230BD6B100225B73 /* ProfileViewController.swift in Sources */,
 				491B767F230B9F6100225B73 /* AppDelegate.swift in Sources */,
+				491B76A1230BD51500225B73 /* MainViewController.swift in Sources */,
+				491B76A7230BD6A600225B73 /* FollowViewController.swift in Sources */,
+				491B76A5230BD69B00225B73 /* LiveViewController.swift in Sources */,
+				491B76A3230BD69000225B73 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		491B7682230B9F6100225B73 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				491B7683230B9F6100225B73 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		491B7687230B9F6200225B73 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				491B7688230B9F6200225B73 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		491B768B230B9F6200225B73 /* Debug */ = {
