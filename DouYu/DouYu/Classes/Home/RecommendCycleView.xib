@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RecommendCycleView" customModule="DouYu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="E2b-uq-TJM">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="eJo-Z6-fgo">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="yWt-MM-ot8"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="ctg-u9-UZI"/>
+                    </connections>
+                </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="WnU-FA-RRY">
+                    <rect key="frame" x="333" y="825" width="71" height="37"/>
+                    <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.2385262192" blue="0.14311708989999999" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="E2b-uq-TJM" secondAttribute="bottom" id="135-tf-Eaa"/>
+                <constraint firstItem="E2b-uq-TJM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="gMo-TL-MWe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WnU-FA-RRY" secondAttribute="trailing" constant="10" id="guo-p5-4B0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="WnU-FA-RRY" secondAttribute="bottom" id="ktX-u1-wlk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="E2b-uq-TJM" secondAttribute="trailing" id="uv4-I2-wt7"/>
+                <constraint firstItem="E2b-uq-TJM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="vY0-2p-Ng4"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="collectionView" destination="E2b-uq-TJM" id="Opa-9w-zRT"/>
+                <outlet property="pageControl" destination="WnU-FA-RRY" id="TOt-zQ-VH5"/>
+            </connections>
+            <point key="canvasLocation" x="68" y="139"/>
+        </view>
+    </objects>
+</document>

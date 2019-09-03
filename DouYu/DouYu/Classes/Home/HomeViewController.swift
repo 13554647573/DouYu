@@ -27,8 +27,11 @@ class HomeViewController: UIViewController {
         let frame = CGRect(x: 0, y: kNavigationBarH, width: kScreenW, height: kTitleViewH)
         let titles = ["推荐","游戏","娱乐","趣玩"]
         let titleView = PageTitleView(frame: frame, titles: titles)
+        titleView.delegate = self
         return titleView
     }()
+    
+    //kotlin
     
     // PageContentView
     private lazy var pageContentView: PageContentView = {[weak self] in
@@ -45,6 +48,8 @@ class HomeViewController: UIViewController {
         childArr.append(FunnyViewController())
         
         let contentView = PageContentView(frame: contentFrame, childVCArray: childArr, parentVC: self)
+        contentView.delegate = self
+
         return contentView
     }()
 }
@@ -104,7 +109,22 @@ extension HomeViewController {
 }
 
 
-extension HomeViewController {
+// MARK: 遵守 PageTitleViewDelegate 协议
+extension HomeViewController : PageTitleViewDelegate {
     
+    func pageTitleView(titleView : PageTitleView,SelectIndex : Int) {
+        
+        pageContentView.setContentIndex(currentIndex: SelectIndex)
+        
+    }
+}
+
+
+// MARK: 遵守 PageContentViewDelegate 协议
+extension HomeViewController : PageContentViewDelegate {
     
+    func pageContentView(contentView: PageContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int) {
+        
+        pageView.setTitleWithProgress(progress: progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
+    }
 }
